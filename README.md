@@ -32,12 +32,14 @@
 - I have used a pretrained VGG16 Model as Encoder and in Decoder I have used Transpose Convolution with Skip Connections from the encoder
 - Download VGG16 from [here](http://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/vgg.zip)
 - Extract the contents of the VGG in the "./data/vgg_model" folder 
-- This network is used for Semantic Segmentation whose architecture is below:   
+- This network is used for Semantic Segmentation whose architecture is below:     
+
 [image2]: ./image_rsrcs/semantic_segmentation.png "SemanticSegmentation"
 ![SemanticSegmentation][image2]
 
 
-- Training image and its corresponding Ground Truth: 
+- Training image and its corresponding Ground Truth:   
+
 [image3]: ./image_rsrcs/kitti_data.png "KittiData"
 ![KittiData][image3]
 
